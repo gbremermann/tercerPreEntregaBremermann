@@ -1,0 +1,23 @@
+.tituloPortada {
+	font-size: 4rem;
+	margin-top: 2rem;
+	border-bottom: 2px orange solid;
+	color: $color_1;
+	font-weight: 600;
+}
+.nota {
+	padding: 2rem;
+	margin-top: 1rem;
+}
+section {
+	div {
+		a {
+			font-size: 2.5rem;
+			text-decoration: none;
+			color: $color_3;
+			&:hover {
+				color: $color_2;
+			}
+		}
+	}
+}

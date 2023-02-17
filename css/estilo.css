@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2? family= Roboto+Condensed:wght@300 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #fafafa;
+  width: 100vw;
+}
+
+.encabezado {
+  background-color: #fafafa;
+  height: 16rem;
+  width: 100%;
+  padding-top: 1rem;
+  border-bottom: 2px solid orange;
+}
+
+header div h1 a {
+  text-decoration: none;
+  color: red;
+  font-size: 5.8rem;
+}
+header ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 5.1rem;
+  font-size: 3rem;
+  width: 100%;
+}
+
+.nav {
+  height: 3rem;
+  font-size: 2.5rem;
+  margin-left: 3rem;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.sec {
+  color: gray;
+}
+
+.botonRegistrarse {
+  font-size: 2rem;
+  margin-left: 6rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  background-color: rgb(211, 139, 5);
+  border: 2px red solid;
+  border-radius: 1px;
+}
+.botonRegistrarse:hover {
+  background-color: red;
+  border: orange 2px solid;
+  border-radius: 2rem;
+}
+.botonRegistrarse a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.buscar {
+  font-size: 1.5rem;
+  margin-left: 8rem;
+  margin-top: 1rem;
+  width: 20rem;
+}
+
+.navMenu {
+  margin-bottom: 1rem;
+}
+
+.menuDesplegable {
+  background-color: rgb(250, 179, 49);
+  width: 100vw;
+}
+
+.nav1 {
+  width: 100vw;
+}
+
+@keyframes urgente {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.actualidad {
+  display: flex;
+  background-color: orange;
+}
+
+.actualidadP {
+  margin-left: 5rem;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+.urgente {
+  color: red;
+  margin-left: 4rem;
+  font-size: 2.3rem;
+  font-weight: 700;
+  padding-top: 1rem;
+}
+
+h3 {
+  animation-name: urgente;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.tituloPortada {
+  font-size: 4rem;
+  margin-top: 2rem;
+  border-bottom: 2px orange solid;
+  color: red;
+  font-weight: 600;
+}
+
+.nota {
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+section div a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: black;
+}
+section div a:hover {
+  color: gray;
+}
+
+.seccion {
+  margin-top: 3rem;
+  border-bottom: orange 2px solid;
+  background: linear-gradient(to top, orange, #fafafa);
+}
+.seccion h2 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: red;
+  font-weight: 550;
+  margin-bottom: 2rem;
+}
+
+.cuerpoNota {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.tituloNoticia {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+main div p {
+  font-size: 2rem;
+}
+main div img {
+  margin-bottom: 2rem;
+}
+main div iframe {
+  margin-bottom: 3rem;
+}
+main div a {
+  font-size: 3rem;
+  color: black;
+}
+
+.formulario {
+  margin-top: 4rem;
+}
+
+.fotoPortada {
+  margin-left: 14rem;
+}
+
+.itemFormulario {
+  font-size: 1.5rem;
+}
+
+.cajaFormulario {
+  width: 30rem;
+  height: 3rem;
+  font-size: 2rem;
+}
+
+.botonFormulario {
+  width: 10rem;
+  font-size: 2rem;
+  background-color: orange;
+  border: 1px orangered solid;
+  border-radius: 1rem;
+}
+.botonFormulario:active {
+  transform: translate(0.5rem, 0.5rem);
+}
+
+.suscribite {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+
+.atajo {
+  color: black;
+  font-size: 2rem;
+}
+
+.pie {
+  background: linear-gradient(to right, #fafafa, orange);
+  align-items: center;
+  margin-top: 5rem;
+}
+.pie ul li {
+  display: inline-block;
+}
+.pie ul li a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  margin: 4rem;
+  color: gray;
+}
+.pie ul li a:hover {
+  color: black;
+}
+
+.tituloFooter {
+  font-size: 5rem;
+  color: red;
+  font-weight: 500;
+}
+
+.pieFinal {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .actualidad {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

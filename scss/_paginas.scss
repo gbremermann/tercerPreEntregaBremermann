@@ -1,0 +1,39 @@
+.seccion {
+	margin-top: 3rem;
+	border-bottom: orange 2px solid;
+	background: linear-gradient(to top,orange,#fafafa);
+	h2 {
+		font-size: 4rem;
+		text-transform: uppercase;
+		color: $color_1;
+		font-weight: 550;
+		margin-bottom: 2rem;
+	}
+}
+.cuerpoNota {
+	margin-left: 10rem;
+	margin-right: 10rem;
+}
+.tituloNoticia {
+	font-size: 3rem;
+	font-weight: 600;
+	margin-top: 5rem;
+	margin-bottom: 2rem;
+}
+main {
+	div {
+		p {
+			font-size: 2rem;
+		}
+		img {
+			margin-bottom: 2rem;
+		}
+		iframe {
+			margin-bottom: 3rem;
+		}
+		a {
+			font-size: 3rem;
+			color: $color_3;
+		}
+	}
+}

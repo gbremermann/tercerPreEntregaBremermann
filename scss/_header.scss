@@ -1,0 +1,78 @@
+
+$background-color_4: #fafafa;
+$background-color_2: rgb(211, 139, 5);
+$background-color_3: red;
+
+.encabezado {
+	background-color: $background-color_4;
+	height: 16rem;
+	width: 100%;
+	padding-top: 1rem;
+	border-bottom: 2px solid orange;
+}
+header {
+	div {
+		h1 {
+			a {
+				text-decoration: none;
+				color: $color_1;
+				font-size: 5.8rem;
+			}
+		}
+	}
+	ul {
+		li {
+			list-style-type: none;
+			display: inline-block;
+			margin-left: 5.1rem;
+			font-size: 3rem;
+			width: 100%;
+		}
+	}
+}
+.nav {
+	height: 3rem;
+	font-size: 2.5rem;
+	margin-left: 3rem;
+	text-align: center;
+	padding-top: 4rem;
+}
+.sec {
+	color: $color_2;
+}
+.botonRegistrarse {
+	font-size: 2rem;
+	margin-left: 6rem;
+	margin-right: 2rem;
+	margin-top: 1rem;
+	background-color: $background-color_2;
+	border: 2px red solid;
+	border-radius: 1px;
+	&:hover {
+		background-color: $background-color_3;
+		border: orange 2px solid;
+		border-radius: 2rem;
+	}
+	a {
+		text-decoration: none;
+		color: $color_4;
+		font-weight: 600;
+	}
+}
+.buscar {
+	font-size: 1.5rem;
+	margin-left: 8rem;
+	margin-top: 1rem;
+	width: 20rem;
+}
+.navMenu {
+	margin-bottom: 1rem;
+}
+
+.menuDesplegable{
+    background-color: rgb(250, 179, 49);
+    width: 100vw;
+}
+.nav1{
+    width: 100vw;
+}

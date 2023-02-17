@@ -1,0 +1,41 @@
+.formulario {
+    margin-top: 4rem;
+}
+
+.fotoPortada {
+    margin-left: 14rem;
+    padding-top: 3rem;
+}
+
+.itemFormulario {
+    font-size: 1.5rem;
+}
+
+.cajaFormulario {
+    width: 30rem;
+    height: 3rem;
+    font-size: 2rem;
+}
+
+.botonFormulario {
+    width: 10rem;
+    font-size: 2rem;
+    background-color: $background-color_1;
+    border: 1px orangered solid;
+    border-radius: 1rem;
+
+    &:active {
+        transform: translate(0.5rem, 0.5rem);
+    }
+}
+
+.suscribite {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+
+.atajo {
+    color: $color_3;
+    font-size: 2rem;
+}
