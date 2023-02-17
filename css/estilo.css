@@ -187,6 +187,7 @@ main div a {
 
 .fotoPortada {
   margin-left: 14rem;
+  padding-top: 3rem;
 }
 
 .itemFormulario {
@@ -231,7 +232,7 @@ main div a {
 }
 .pie ul li a {
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin: 4rem;
   color: gray;
 }
