@@ -3,7 +3,6 @@
 }
 
 .fotoPortada {
-    margin-left: 14rem;
     padding-top: 3rem;
 }
 
@@ -38,4 +37,9 @@
 .atajo {
     color: $color_3;
     font-size: 2rem;
+}
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

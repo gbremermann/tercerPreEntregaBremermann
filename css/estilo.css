@@ -30,7 +30,7 @@ header div h1 a {
 header ul li {
   list-style-type: none;
   display: inline-block;
-  margin-left: 5.1rem;
+  margin-left: 2rem;
   font-size: 3rem;
   width: 100%;
 }
@@ -48,8 +48,8 @@ header ul li {
 }
 
 .botonRegistrarse {
-  font-size: 2rem;
-  margin-left: 6rem;
+  font-size: 1.5rem;
+  margin-left: 2rem;
   margin-right: 2rem;
   margin-top: 1rem;
   background-color: rgb(211, 139, 5);
@@ -69,9 +69,9 @@ header ul li {
 
 .buscar {
   font-size: 1.5rem;
-  margin-left: 8rem;
+  margin-left: 1rem;
   margin-top: 1rem;
-  width: 20rem;
+  width: 18rem;
 }
 
 .navMenu {
@@ -142,6 +142,11 @@ section div a:hover {
   color: gray;
 }
 
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 .seccion {
   margin-top: 3rem;
   border-bottom: orange 2px solid;
@@ -156,8 +161,8 @@ section div a:hover {
 }
 
 .cuerpoNota {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .tituloNoticia {
@@ -186,7 +191,6 @@ main div a {
 }
 
 .fotoPortada {
-  margin-left: 14rem;
   padding-top: 3rem;
 }
 
@@ -222,6 +226,12 @@ main div a {
   font-size: 2rem;
 }
 
+.div2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .pie {
   background: linear-gradient(to right, #fafafa, orange);
   align-items: center;
@@ -253,6 +263,24 @@ main div a {
 @media (max-width: 768px) {
   .actualidad {
     display: none;
+  }
+  .fotoNota {
+    width: 100%;
+  }
+  main div p {
+    font-size: 1.7rem;
+  }
+  .tituloNoticia {
+    font-size: 1.8rem;
+  }
+  .fotoArticulo {
+    width: 95%;
+  }
+  .fotoPortada {
+    margin: 3rem;
+  }
+  .ultimasNoticias {
+    background: linear-gradient(to bottom, #fafafa, orange);
   }
 }
 
