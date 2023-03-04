@@ -11,7 +11,6 @@ html {
 body {
   font-family: "Roboto Condensed", sans-serif;
   background-color: #fafafa;
-  width: 100vw;
 }
 
 .encabezado {
@@ -23,9 +22,12 @@ body {
 }
 
 header div h1 a {
+  padding-top: 2rem;
   text-decoration: none;
   color: red;
-  font-size: 5.8rem;
+  font-size: 6.2rem;
+  max-width: 90%;
+  font-weight: 540;
 }
 header ul li {
   list-style-type: none;
@@ -142,6 +144,14 @@ section div a:hover {
   color: gray;
 }
 
+.menuH {
+  margin-left: 2rem;
+}
+
+.fotoArticulo {
+  width: 50%;
+}
+
 body {
   width: 100vw;
   overflow-x: hidden;
@@ -174,8 +184,10 @@ body {
 
 main div p {
   font-size: 2rem;
+  margin: 2rem;
 }
 main div img {
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 main div iframe {
@@ -269,6 +281,7 @@ main div a {
   }
   main div p {
     font-size: 1.7rem;
+    margin: 0.5rem;
   }
   .tituloNoticia {
     font-size: 1.8rem;
@@ -281,6 +294,32 @@ main div a {
   }
   .ultimasNoticias {
     background: linear-gradient(to bottom, #fafafa, orange);
+  }
+  section div a {
+    font-size: 2rem;
+  }
+  .nota {
+    border-bottom: 0.5px gray solid;
+  }
+}
+@media (max-width: 992px) {
+  .sec {
+    font-size: 2.1rem;
+  }
+  .actualidad {
+    display: none;
+  }
+  .buscar {
+    width: 15rem;
+  }
+  .botonRegistrarse {
+    margin-left: 5rem;
+    justify-items: right;
+  }
+}
+@media (min-width: 768px) {
+  .fotoArticulo {
+    width: 90%;
   }
 }
 

@@ -1,5 +1,5 @@
-
 @media (max-width: 768px) {
+	
 	.actualidad {
 		display: none;
 	}
@@ -8,6 +8,7 @@
 	}
 	main div p{
 		font-size: 1.7rem;
+		margin: 0.5rem;
 	}
 	.tituloNoticia{
 		font-size: 1.8rem;
@@ -21,5 +22,34 @@
 	.ultimasNoticias{
 		background: linear-gradient(to bottom, #fafafa, orange);
 	}
+	section div a{
+		font-size: 2rem;
+	}
+	.nota{
+		border-bottom: 0.5px gray solid;
+	}
 	
 }
+@media (max-width: 992px){
+	.sec{
+		font-size: 2.1rem
+	}
+	.actualidad {
+		display: none;
+	}
+	.buscar{
+		width: 15rem;
+	}
+	.botonRegistrarse{
+		margin-left: 5rem;
+		justify-items: right;
+	}
+}
+
+@media (min-width: 768px){
+	.fotoArticulo{
+		width: 90%;
+	}	
+	
+}
+

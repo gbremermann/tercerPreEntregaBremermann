@@ -15,9 +15,12 @@ header {
 	div {
 		h1 {
 			a {
+				padding-top: 2rem;
 				text-decoration: none;
 				color: $color_1;
-				font-size: 5.8rem;
+				font-size: 6.2rem;
+				max-width: 90%;
+				font-weight: 540;
 			}
 		}
 	}
