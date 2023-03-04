@@ -2,19 +2,23 @@
 	0% {
 		opacity: 0;
 	}
+
 	100% {
 		opacity: 100%;
 	}
 }
+
 .actualidad {
 	display: flex;
 	background-color: $background-color_1;
 }
+
 .actualidadP {
 	margin-left: 5rem;
 	font-size: 1.5rem;
 	padding-top: 1rem;
 }
+
 .urgente {
 	color: $color_1;
 	margin-left: 4rem;
@@ -22,6 +26,7 @@
 	font-weight: 700;
 	padding-top: 1rem;
 }
+
 h3 {
 	animation-name: urgente;
 	animation-duration: 2s;

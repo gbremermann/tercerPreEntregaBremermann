@@ -5,16 +5,19 @@
 	color: $color_1;
 	font-weight: 600;
 }
+
 .nota {
 	padding: 2rem;
 	margin-top: 1rem;
 }
+
 section {
 	div {
 		a {
 			font-size: 2.5rem;
 			text-decoration: none;
 			color: $color_3;
+
 			&:hover {
 				color: $color_2;
 			}
@@ -22,10 +25,7 @@ section {
 	}
 }
 
-.menuH{
-	margin-left: 2rem;	
-}
-.fotoArticulo{
-	width: 50%;
+.menuH {
+	margin-left: 2rem;
 }
 
